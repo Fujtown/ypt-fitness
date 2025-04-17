@@ -1,8 +1,6 @@
 import Link from 'next/link';
-import { useLanguage } from '@/context/LanguageContext';
 
 export default function PaymentCancelPage() {
-  const { t } = useLanguage();
 
   return (
     <div className="container-custom py-16 min-h-[60vh] flex items-center justify-center">
